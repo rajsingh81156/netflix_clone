@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav img {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    z-index: 2;
+    height: 40px;
+    width: auto;
+}
+
+.bg_img {
+    position: absolute;
+    height: 130vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.box {
+    position: absolute;
+    height: 130vh;
+    width: 100vw;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.69;
+}
+
+.center {
+    position: absolute;
+    top: 17vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    width: 35vw;
+    background-color: black;
+    opacity: 0.59;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.internal {
+    position: absolute;
+    /* border: 2px white solid; */
+    top: 16vh;
+    left: 32vw;
+    height: 100vh;
+    width: 35vw;
+    z-index: 4;
+
+}
+
+.internal h2 {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 30px;
+    font-size: 2em;
+    color: white;
+}
+
+.input form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 65px;
+}
+
+.input form input {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.059);
+    border: 0.5px solid rgba(255, 255, 255, 0.276);
+    align-items: center;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.input form label:hover{
+    background-color: rgba(255, 0, 0, 0.875);
+}
+
+.input1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input2 {
+    padding: 10px 65px;
+}
+.input2:hover a{
+        background-color: rgba(245, 245, 245, 0.202);
+}
+.input2 a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(245, 245, 245, 0.202);
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.input3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.input3 a {
+        color: rgba(245, 245, 245, 0.929);
+    font-weight: 550;
+}
+
+.input4 {
+    color: white;
+    padding: 10px 65px;
+}
+
+.input4 a {
+    color: white;
+}
+
+.input5 {
+    padding: 10px 65px;
+    color: rgba(245, 245, 245, 0.697);
+}
+
+.input5 a {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.input6 {
+    padding: 10px 65px;
+    color: rgba(245, 245, 245, 0.697);
+}
+
+.input7 {
+    padding: 10px 65px;
+}
+
+.input7 a {
+    color: blue;
+}
+
+footer {
+    position: absolute;
+    bottom: -80vh;
+    background-color: #000000ec;
+    width: 100vw;
+    height: 50vh;
+    color: rgba(255, 255, 255, 0.697);
+}
+
+footer .footer {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+}
+
+footer .footer span:first-child {
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+}
+
+.links div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.links .one {
+    margin-right: 40px;
+    margin-left: -40px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.links .two {
+    margin-right: 40px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.links .three {
+    margin-right: 40px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.links .four {
+    margin-right: 40px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.links div a {
+    color: rgba(255, 255, 255, 0.697);
+}
+
+footer div select {
+    background-color: transparent;
+    color: white;
+    border: 0.5px solid rgba(245, 245, 245, 0.697);
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+footer div select:focus {
+    border: 2px solid white;
+}
